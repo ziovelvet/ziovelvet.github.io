@@ -651,23 +651,23 @@ tr.torrent .bookmark > a:after { content: ""; }
 }
 
 .chart-text {
-    fill: white;
+	fill: white;
 }
 
 .labels {
-    fill: #999;
+	fill: #999;
 }
 
 .label-title {
-    fill: #bbb;
+	fill: #bbb;
 }
 
 .bar-value {
-    fill: white;
+	fill: white;
 }
 
 .vertical-graph-line:hover {
-    stroke: rgba(10, 10, 10, 0.6);
+	stroke: rgba(10, 10, 10, 0.6);
 }
 
 .graphs .shape-1 { background-color: #F15854; }

@@ -41,7 +41,7 @@ textarea#quickpost{margin:0; padding:0}
 
 /* header layout */
 #header{position: relative; overflow: visible; height: 110px; z-index: 4;}
-#logo{width: 94px; height: 74px; position: absolute; top: 8px; left: 0; background-repeat: no-repeat; background-image: url(images/logo.png);}
+#logo{width: 94px; height: 74px; position: absolute; top: 8px; left: 0; background-repeat: no-repeat; background-image: url(images/red-minimal.png);}
 #logo a{width: 94px; height: 74px; display: block;}
 
 /* menu */
@@ -376,7 +376,7 @@ strong.quoteheader {color: #f1f1f1;}
 .sidebar .pad br{line-height:1em}
 
 .main_column .body,
-.sidebar .box .body{/*ADD TAG ON ALBUM PAGE */ padding:10px}
+.sidebar .box .body{/*ADD TAG ON ALBUM PAGE */ padding:10px; overflow-wrap: break-word}
 
 .sidebar .box .stats{list-style:none; margin:0; padding:10px}
 .sidebar ol{padding:0 !important; margin:0; list-style-position:inside}
@@ -443,6 +443,13 @@ strong.quoteheader {color: #f1f1f1;}
 .lightbox .colhead span{font-weight:bold}
 .save_message{display:table; padding:2px; background-repeat:repeat-x; background-position:0 -771px; margin:0 auto; text-align:center; font-weight:bold}
 .nobullet{list-style:none; margin:0; padding:10px}
+
+.lightbox img {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: transparent;
+	z-index: -1;
+}
 
 /* CLEARFIXES */
 #menu ul:after, ul#userinfo_minor:after, div.sidebar:after, #content:after, #footer:after{content:"."; display:block; height:0; clear:both; visibility:hidden}
@@ -642,3 +649,148 @@ tr.torrent .bookmark > a:after { content: ""; }
 #reportsv2 .manage_form img {
 	max-width: 625px;
 }
+
+.chart-text {
+    fill: white;
+}
+
+.labels {
+    fill: #999;
+}
+
+.label-title {
+    fill: #bbb;
+}
+
+.bar-value {
+    fill: white;
+}
+
+.vertical-graph-line:hover {
+    stroke: rgba(10, 10, 10, 0.6);
+}
+
+.graphs .shape-1 { background-color: #F15854; }
+.graphs .shape-2 { background-color: #FAA43A; }
+.graphs .shape-3 { background-color: #5DA5DA; }
+.graphs .shape-4 { background-color: #60BD68; }
+.graphs .shape-5 { background-color: #4D4D4D; }
+.graphs .shape-6 { background-color: #FFB4A3; }
+.graphs .shape-7 { background-color: #FFD9A8; }
+.graphs .shape-8 { background-color: #ADD6FF; }
+.graphs .shape-9 { background-color: #97D87D; }
+.graphs .shape-10 { background-color: #E1E278; }
+.graphs .shape-11 { background-color: #CD89E5; }
+.graphs .shape-12 { background-color: #FF84CE; }
+.graphs .shape-13 { background-color: #7072FF; }
+.graphs .shape-14 { background-color: #71E2B9; }
+.graphs .shape-15 { background-color: #46A9DD; }
+.graphs .shape-16 { background-color: #BA915B; }
+.graphs .shape-17 { background-color: #98D831; }
+.graphs .shape-18 { background-color: #B7493A; }
+.graphs .shape-19 { background-color: #DD6899; }
+.graphs .shape-20 { background-color: #4DC6AA; }
+.graphs .shape-21 { background-color: #C4CE56; }
+.graphs .shape-22 { background-color: #6595D3; }
+.graphs .shape-23 { background-color: #D6B93B; }
+.graphs .shape-24 { background-color: #5ADD5F; }
+
+.graphs .chart-color-1 { stroke: #F15854; transition: all .2s linear; }
+.graphs .chart-color-2 { stroke: #FAA43A; transition: all .2s linear; }
+.graphs .chart-color-3 { stroke: #5DA5DA; transition: all .2s linear; }
+.graphs .chart-color-4 { stroke: #60BD68; transition: all .2s linear; }
+.graphs .chart-color-5 { stroke: #4D4D4D; transition: all .2s linear; }
+.graphs .chart-color-6 { stroke: #FFB4A3; transition: all .2s linear; }
+.graphs .chart-color-7 { stroke: #FFD9A8; transition: all .2s linear; }
+.graphs .chart-color-8 { stroke: #ADD6FF; transition: all .2s linear; }
+.graphs .chart-color-9 { stroke: #97D87D; transition: all .2s linear; }
+.graphs .chart-color-10 { stroke: #E1E278; transition: all .2s linear; }
+.graphs .chart-color-11 { stroke: #CD89E5; transition: all .2s linear; }
+.graphs .chart-color-12 { stroke: #FF84CE; transition: all .2s linear; }
+.graphs .chart-color-13 { stroke: #7072FF; transition: all .2s linear; }
+.graphs .chart-color-14 { stroke: #71E2B9; transition: all .2s linear; }
+.graphs .chart-color-15 { stroke: #46A9DD; transition: all .2s linear; }
+.graphs .chart-color-16 { stroke: #BA915B; transition: all .2s linear; }
+.graphs .chart-color-17 { stroke: #98D831; transition: all .2s linear; }
+.graphs .chart-color-18 { stroke: #B7493A; transition: all .2s linear; }
+.graphs .chart-color-19 { stroke: #DD6899; transition: all .2s linear; }
+.graphs .chart-color-20 { stroke: #4DC6AA; transition: all .2s linear; }
+.graphs .chart-color-21 { stroke: #C4CE56; transition: all .2s linear; }
+.graphs .chart-color-22 { stroke: #6595D3; transition: all .2s linear; }
+.graphs .chart-color-23 { stroke: #D6B93B; transition: all .2s linear; }
+.graphs .chart-color-24 { stroke: #5ADD5F; transition: all .2s linear; }
+
+.graphs .chart-color-1:hover { stroke: #D22B27; }
+.graphs .chart-color-2:hover { stroke: #D07F1A; }
+.graphs .chart-color-3:hover { stroke: #1E70AC; }
+.graphs .chart-color-4:hover { stroke: #26B132; }
+.graphs .chart-color-5:hover { stroke: #383838; }
+.graphs .chart-color-6:hover { stroke: #FF927A; }
+.graphs .chart-color-7:hover { stroke: #E89D3C; }
+.graphs .chart-color-8:hover { stroke: #88B9EA; }
+.graphs .chart-color-9:hover { stroke: #5DC16A; }
+.graphs .chart-color-10:hover { stroke: #A8B218; }
+.graphs .chart-color-11:hover { stroke: #A752C4; }
+.graphs .chart-color-12:hover { stroke: #C64B95; }
+.graphs .chart-color-13:hover { stroke: #4E51DB; }
+.graphs .chart-color-14:hover { stroke: #40C494; }
+.graphs .chart-color-15:hover { stroke: #2174A0; }
+.graphs .chart-color-16:hover { stroke: #8C6635; }
+.graphs .chart-color-17:hover { stroke: #6CA315; }
+.graphs .chart-color-18:hover { stroke: #7C271C; }
+.graphs .chart-color-19:hover { stroke: #B2406F; }
+.graphs .chart-color-20:hover { stroke: #329981; }
+.graphs .chart-color-21:hover { stroke: #9BAA38; }
+.graphs .chart-color-22:hover { stroke: #436FA8; }
+.graphs .chart-color-23:hover { stroke: #9B8520; }
+.graphs .chart-color-24:hover { stroke: #268E2A; }
+
+.graphs .bar-color-1 { fill: #F15854; transition: all .2s linear; }
+.graphs .bar-color-2 { fill: #FAA43A; transition: all .2s linear; }
+.graphs .bar-color-3 { fill: #5DA5DA; transition: all .2s linear; }
+.graphs .bar-color-4 { fill: #60BD68; transition: all .2s linear; }
+.graphs .bar-color-5 { fill: #4D4D4D; transition: all .2s linear; }
+.graphs .bar-color-6 { fill: #FFB4A3; transition: all .2s linear; }
+.graphs .bar-color-7 { fill: #FFD9A8; transition: all .2s linear; }
+.graphs .bar-color-8 { fill: #ADD6FF; transition: all .2s linear; }
+.graphs .bar-color-9 { fill: #97D87D; transition: all .2s linear; }
+.graphs .bar-color-10 { fill: #E1E278; transition: all .2s linear; }
+.graphs .bar-color-11 { fill: #CD89E5; transition: all .2s linear; }
+.graphs .bar-color-12 { fill: #FF84CE; transition: all .2s linear; }
+.graphs .bar-color-13 { fill: #7072FF; transition: all .2s linear; }
+.graphs .bar-color-14 { fill: #71E2B9; transition: all .2s linear; }
+.graphs .bar-color-15 { fill: #46A9DD; transition: all .2s linear; }
+.graphs .bar-color-16 { fill: #BA915B; transition: all .2s linear; }
+.graphs .bar-color-17 { fill: #98D831; transition: all .2s linear; }
+.graphs .bar-color-18 { fill: #B7493A; transition: all .2s linear; }
+.graphs .bar-color-19 { fill: #DD6899; transition: all .2s linear; }
+.graphs .bar-color-20 { fill: #4DC6AA; transition: all .2s linear; }
+.graphs .bar-color-21 { fill: #C4CE56; transition: all .2s linear; }
+.graphs .bar-color-22 { fill: #6595D3; transition: all .2s linear; }
+.graphs .bar-color-23 { fill: #D6B93B; transition: all .2s linear; }
+.graphs .bar-color-24 { fill: #5ADD5F; transition: all .2s linear; }
+
+.graphs .bar-color-1:hover { fill: #D22B27; }
+.graphs .bar-color-2:hover { fill: #D07F1A; }
+.graphs .bar-color-3:hover { fill: #1E70AC; }
+.graphs .bar-color-4:hover { fill: #26B132; }
+.graphs .bar-color-5:hover { fill: #383838; }
+.graphs .bar-color-6:hover { fill: #FF927A; }
+.graphs .bar-color-7:hover { fill: #E89D3C; }
+.graphs .bar-color-8:hover { fill: #88B9EA; }
+.graphs .bar-color-9:hover { fill: #5DC16A; }
+.graphs .bar-color-10:hover { fill: #A8B218; }
+.graphs .bar-color-11:hover { fill: #A752C4; }
+.graphs .bar-color-12:hover { fill: #C64B95; }
+.graphs .bar-color-13:hover { fill: #4E51DB; }
+.graphs .bar-color-14:hover { fill: #40C494; }
+.graphs .bar-color-15:hover { fill: #2174A0; }
+.graphs .bar-color-16:hover { fill: #8C6635; }
+.graphs .bar-color-17:hover { fill: #6CA315; }
+.graphs .bar-color-18:hover { fill: #7C271C; }
+.graphs .bar-color-19:hover { fill: #B2406F; }
+.graphs .bar-color-20:hover { fill: #329981; }
+.graphs .bar-color-21:hover { fill: #9BAA38; }
+.graphs .bar-color-22:hover { fill: #436FA8; }
+.graphs .bar-color-23:hover { fill: #9B8520; }
+.graphs .bar-color-24:hover { fill: #268E2A; }
